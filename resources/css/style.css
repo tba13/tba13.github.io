@@ -1,10 +1,31 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darksalmon;
     background-color: wheat;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 nav {
     background-color: darkred;
-    padding: 2rem 3rem;
+    padding: 2rem;
 }
+
+nav li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+nav a {
+    color: rgb(245, 186, 178);
+}
+
+.main-content {
+    padding: 2rem 1.5rem;
+}
+
+.portfolio {
+    color: darksalmon;
+}
+
