@@ -5,6 +5,12 @@ body {
 
 h1 {
     font-size: 3rem;
+    padding: 2rem 0;
+    color: darksalmon;
+}
+
+p {
+    padding-left: 2rem;
 }
 
 nav {
@@ -13,6 +19,7 @@ nav {
 }
 
 nav li {
+    
     display: inline;
     padding-right: 2rem;
 }
@@ -22,10 +29,16 @@ nav a {
 }
 
 .main-content {
-    padding: 2rem 1.5rem;
+    padding-left: 3rem;
 }
 
-.portfolio {
-    color: darksalmon;
+/*might want to just make it universal ul li*/
+.portfolio ul { 
+    padding-left: 3rem;
+    list-style: square;
+}
+
+.portfolio li {
+   padding-bottom: 1rem;
 }
 
